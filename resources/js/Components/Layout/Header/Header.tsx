@@ -21,7 +21,8 @@ export const Header = () => {
         <header className="header">
             <div className="header__wrapper wrapper">
                 <div className="header__logo">
-                    <img className="header__img" src="assets/img/logo.png" alt="logo" />
+                    <img className="header__img" src="assets/img/letter-white-2.png" alt="logo" />
+                    <h1 className="header__title">Сервис почтовой отправки</h1>
                 </div>
                 <div className="header__tools">
                     <svg className="icons js-view-table">

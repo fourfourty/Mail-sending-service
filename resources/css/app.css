@@ -124,10 +124,21 @@ a {
     flex-flow: column;
     place-items: center;
 }
+.header__logo {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-flow: column;
+}
 .header__img,
 .auth__img {
     text-rendering: auto;
+    max-width: 250px;
+    max-height: 250px;
     transition: 1s;
+}
+.header__title {
+    color: #fff;
 }
 .header__view-table-btn {
     background-image: url('../assets/img/free-icon-report-5671522.png');
